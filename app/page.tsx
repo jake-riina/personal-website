@@ -24,7 +24,7 @@ export default function Home() {
                 {/* Name Section */}
                 <div className="mb-6">
                   <h1 className="text-2xl md:text-3xl font-semibold text-gray-400 mb-2">
-                    Hello, I'm
+                    Hello, I&apos;m
                   </h1>
                   <h2 className="text-5xl md:text-7xl lg:text-8xl font-black text-white mb-6 whitespace-normal md:whitespace-nowrap" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.3)' }}>
                     JAKE RIINA
