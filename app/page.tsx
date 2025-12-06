@@ -115,7 +115,7 @@ export default function Home() {
                 />
                 <AboutDropdown
                   title="Photography"
-                  content="I love photography because it allows me to capture beautiful moments and savour experiences. Growing up, my parents photographed everything, and because of that, it's allowed us to go back and relive some of our favorite memories. I want to carry on that tradition."
+                  content="I love photography because it allows me to capture beautiful moments and savour experiences. Growing up, my parents photographed everything, and because of that, it&apos;s allowed us to go back and relive some of our favorite memories. I want to carry on that tradition."
                 />
                 <AboutDropdown
                   title="Travel"
