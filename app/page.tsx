@@ -14,6 +14,23 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-black">
+      {/* Structured Data for SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Jake Riina",
+            "jobTitle": "Designer & Engineer",
+            "description": "Designer and engineer with experience building innovative products in product design, UX/UI, engineering, and business strategy.",
+            "url": "https://personal-website.vercel.app",
+            "sameAs": [
+              "https://www.linkedin.com/in/yourprofile"
+            ]
+          })
+        }}
+      />
       {/* Hero Section */}
       <section className="min-h-[80vh] flex items-center pt-12 md:pt-24 pb-16">
         <div className="container mx-auto px-4 py-12">

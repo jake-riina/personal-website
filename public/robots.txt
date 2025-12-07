@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://personal-website.vercel.app/sitemap.xml
+
